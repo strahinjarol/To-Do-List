@@ -43,6 +43,7 @@
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
+  position: relative;
 }
 
 input {
@@ -110,4 +111,13 @@ ul li span {
 
 ul li span:hover {
   background-color: #c9c9c9;
+}
+
+@media screen and (max-width: 405px) {
+  input {
+    width: 100%;
+  }
+  button {
+    padding: 16px 20px;
+  }
 }
